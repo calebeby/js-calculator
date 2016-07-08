@@ -1,3 +1,3 @@
-$ = function(element) {
+var $ = function(element) {
   return document.querySelectorAll(element);
 };
