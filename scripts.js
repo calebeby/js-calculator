@@ -6,6 +6,6 @@ var buttons = $('.buttons button');
 
 buttons.forEach(function(button) {
   button.addEventListener('click', function() {
-    console.log('button ' + button + ' clicked');
+    console.log('button ' + button.getAttribute('data-button') + ' clicked');
   });
 });
